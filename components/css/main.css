@@ -1,0 +1,75 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* General colors */
+
+.d-primary{
+    background-color: rgb(70, 118, 252) !important;
+}
+
+.d-primary:hover{
+    background-color: rgb(61, 107, 235) !important;
+}
+
+.d-primary:active{
+    box-shadow:0px 0px 5px 5px rgba(255, 255, 255, 0.3) inset !important; 
+    background-color: rgb(61, 107, 235) !important;
+}
+
+.d-danger{
+    background-color: rgb(252, 85, 70) !important;
+}
+
+.d-danger:hover{
+    background-color: rgb(246, 72, 56) !important;
+}
+
+.d-danger:active{
+    box-shadow:0px 0px 5px 5px rgba(255, 255, 255, 0.3) inset !important; 
+    background-color: rgb(246, 72, 56)  !important;
+}
+
+
+/* Button style */
+.d-btn {
+    width:100px;
+    height: 30px;   
+    border-radius: 5px;
+    padding: auto;
+    text-align: center;
+    padding-top: 13px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(41, 47, 63);
+}
+
+.d-btn:hover {
+    background-color: rgb(23, 25, 32);
+}
+
+.d-btn:active {
+    box-shadow:0px 0px 5px 5px rgba(224, 224, 224, 0.3) inset; 
+    background-color: rgb(23, 25, 32);
+}
+
+/* Input Style */
+.d-input{
+    padding-left: 5px;
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+.d-input::placeholder{
+    color: grey;
+    opacity: 0.5;
+}
+
+.d-input:focus{
+    outline: none !important;
+    border: 1px solid rgba(23, 25, 32, 0.35);   
+    color: rgba(0,0,0);
+}
